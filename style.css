@@ -1,0 +1,19 @@
+.tooth{
+    position: absolute;
+    left: 475px;
+    transform: rotate(197deg);
+    top: 250px;
+    animation: abc 1s linear infinite;
+}
+
+.tom{
+    position: absolute;
+    left: 475px;
+    top: 120px;
+}
+
+@keyframes abc{
+    0%{left: 390px;}
+    50%{left: 480px;}
+    100%{left: 390px;}
+}
